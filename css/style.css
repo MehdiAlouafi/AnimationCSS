@@ -1,0 +1,54 @@
+/* line 1, ../sass/style.sass */
+body {
+  background-color: #3d3d3d;
+}
+
+/* line 6, ../sass/style.sass */
+.section {
+  height: 200px;
+  width: 400px;
+  margin: 50px auto 0 auto;
+  text-align: center;
+}
+/* line 11, ../sass/style.sass */
+.section a {
+  display: inline-block;
+  height: 50px;
+  width: 180px;
+  background-color: #3498db;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  line-height: 3.3;
+  border-radius: 30px;
+  font-size: 15px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px #2980b9;
+}
+/* line 25, ../sass/style.sass */
+.section a .main {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  bottom: 0%;
+}
+/* line 32, ../sass/style.sass */
+.section a .hover img {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 100%;
+  left: 65px;
+  transition: top 0.4s ease-in;
+}
+/* line 41, ../sass/style.sass */
+.section a:hover .main {
+  position: relative;
+  bottom: 100%;
+  -webkit-transition: bottom 0.4s ease-in;
+}
+/* line 45, ../sass/style.sass */
+.section a:hover img {
+  top: 0;
+}
