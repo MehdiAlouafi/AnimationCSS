@@ -17,7 +17,7 @@ body {
   width: 180px;
   background-color: #3498db;
   text-decoration: none;
-  color: #fff;
+  color: black;
   text-align: center;
   line-height: 3.3;
   border-radius: 30px;
@@ -25,15 +25,16 @@ body {
   position: relative;
   overflow: hidden;
   box-shadow: 0px 0px 10px #2980b9;
+  font-family: "Varela Round", sans-serif;
 }
-/* line 25, ../sass/style.sass */
+/* line 26, ../sass/style.sass */
 .section a .main {
-  font-family: sans-serif;
   text-transform: uppercase;
   position: relative;
   bottom: 0%;
+  font-weight: 900;
 }
-/* line 32, ../sass/style.sass */
+/* line 33, ../sass/style.sass */
 .section a .hover img {
   height: 50px;
   width: 50px;
@@ -42,13 +43,13 @@ body {
   left: 65px;
   transition: top 0.4s ease-in;
 }
-/* line 41, ../sass/style.sass */
+/* line 42, ../sass/style.sass */
 .section a:hover .main {
   position: relative;
   bottom: 100%;
   -webkit-transition: bottom 0.4s ease-in;
 }
-/* line 45, ../sass/style.sass */
+/* line 46, ../sass/style.sass */
 .section a:hover img {
   top: 0;
 }
