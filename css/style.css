@@ -1,17 +1,26 @@
 /* line 1, ../sass/style.sass */
 body {
   background-color: #3d3d3d;
+  height: 100vh;
+  box-sizing: border-box;
 }
 
-/* line 6, ../sass/style.sass */
+/* line 7, ../sass/style.sass */
 .section {
-  height: 200px;
+  height: 100%;
   width: 400px;
-  margin: 50px auto 0 auto;
+  margin: 20px auto 0 auto;
   text-align: center;
 }
-/* line 11, ../sass/style.sass */
+/* line 12, ../sass/style.sass */
+.section .first-button {
+  height: 140px;
+  padding-top: 50px;
+  border-bottom: 2px dotted #333;
+}
+/* line 16, ../sass/style.sass */
 .section a {
+  margin-top: 20px;
   display: inline-block;
   height: 50px;
   width: 180px;
@@ -27,29 +36,30 @@ body {
   box-shadow: 0px 0px 10px #2980b9;
   font-family: "Varela Round", sans-serif;
 }
-/* line 26, ../sass/style.sass */
+/* line 32, ../sass/style.sass */
 .section a .main {
+  display: inline-block;
   text-transform: uppercase;
   position: relative;
   bottom: 0%;
   font-weight: 900;
+  -webkit-transition: all 0.4s ease;
 }
-/* line 33, ../sass/style.sass */
+/* line 42, ../sass/style.sass */
 .section a .hover img {
   height: 50px;
   width: 50px;
   position: absolute;
   top: 100%;
   left: 65px;
-  transition: top 0.4s ease-in;
+  transition: top 0.5s ease;
 }
-/* line 42, ../sass/style.sass */
+/* line 51, ../sass/style.sass */
 .section a:hover .main {
   position: relative;
   bottom: 100%;
-  -webkit-transition: bottom 0.4s ease-in;
 }
-/* line 46, ../sass/style.sass */
+/* line 54, ../sass/style.sass */
 .section a:hover img {
   top: 0;
 }

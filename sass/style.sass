@@ -1,14 +1,20 @@
 body
 	background-color: #3d3d3d
-	
+	height: 100vh
+	box-sizing: border-box
 
 
 .section
-	height: 200px
+	height: 100%
 	width: 400px
-	margin: 50px auto 0 auto
+	margin: 20px auto 0 auto
 	text-align: center
+	.first-button
+		height: 140px
+		padding-top: 50px
+		border-bottom: 2px dotted #333
 	a
+		margin-top: 20px
 		display: inline-block
 		height: 50px
 		width: 180px
@@ -24,10 +30,13 @@ body
 		box-shadow: 0px 0px 10px #2980b9
 		font-family: 'Varela Round', sans-serif
 		.main
+			display: inline-block
 			text-transform: uppercase
 			position: relative
 			bottom: 0%
 			font-weight: 900
+			-webkit-transition: all 0.4s ease
+
 
 		.hover
 			img
@@ -36,12 +45,11 @@ body
 				position: absolute
 				top: 100%
 				left: 65px
-				transition: top 0.4s ease-in
+				transition: top 0.5s ease
 
 		&:hover
 			.main
 				position: relative
 				bottom: 100%
-				-webkit-transition: bottom 0.4s ease-in
 			img
 				top: 0
