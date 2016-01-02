@@ -38,14 +38,13 @@ body {
 }
 /* line 32, ../sass/style.sass */
 .section a .main {
-  display: inline-block;
   text-transform: uppercase;
   position: relative;
   bottom: 0%;
   font-weight: 900;
   -webkit-transition: all 0.4s ease;
 }
-/* line 42, ../sass/style.sass */
+/* line 41, ../sass/style.sass */
 .section a .hover img {
   height: 50px;
   width: 50px;
@@ -54,12 +53,12 @@ body {
   left: 65px;
   transition: top 0.5s ease;
 }
-/* line 51, ../sass/style.sass */
+/* line 50, ../sass/style.sass */
 .section a:hover .main {
   position: relative;
   bottom: 100%;
 }
-/* line 54, ../sass/style.sass */
+/* line 53, ../sass/style.sass */
 .section a:hover img {
   top: 0;
 }
